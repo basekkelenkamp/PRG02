@@ -1,6 +1,7 @@
 # Huiswerk week 1
 
 ## Onderwerpen 
+- [Client - server model](https://app.pluralsight.com/course-player?course=web-development-intro&author=nina-zakharenko&name=web-development-intro-m1&clip=1&mode=live)
 - [Datum en tijd](https://www.php.net/manual/en/function.date.php)
     - [Unix time](https://en.wikipedia.org/wiki/Unix_time)
     - [time( )](https://www.php.net/manual/en/function.time.php)
