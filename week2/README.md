@@ -3,6 +3,7 @@
 ## Onderwerpen 
 
 - [GET](https://www.php.net/manual/en/reserved.variables.get.php)
+    - [Pluralsight, $_GET() demo](https://app.pluralsight.com/course-player?course=php-fundamentals&author=jill-gundersen&name=php-fundamentals-m9&clip=5&mode=live)
 - [POST](https://www.php.net/manual/en/reserved.variables.post.php)
     - [Pluralsight, werken met FORMS](https://app.pluralsight.com/course-player?course=php-getting-started&author=christian-wenz&name=d5b21976-f9aa-46a7-b4b6-f30484c469af&clip=0&mode=live)
 
