@@ -6,6 +6,7 @@
     - [Unix time](https://en.wikipedia.org/wiki/Unix_time)
     - [time( )](https://www.php.net/manual/en/function.time.php)
 - [(Associatieve) array](https://www.php.net/manual/en/language.types.array.php)
+    - [Arrays op pluralsight](https://app.pluralsight.com/course-player?course=php-fundamentals&author=jill-gundersen&name=php-fundamentals-m5&clip=0&mode=live)
 - [foreach loop](https://www.php.net/manual/en/control-structures.foreach.php) 
 
 ## Opdracht 1.1
