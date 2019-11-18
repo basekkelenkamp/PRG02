@@ -1,4 +1,4 @@
-# Huiswerk week 1
+# Huiswerk week 2
 
 ## Onderwerpen
 - [Extends](http://php.net/manual/en/keyword.extends.php)
@@ -7,7 +7,7 @@
 
 ## Opdracht
 Pas de theorie van vandaag toe op de muziekcollectie opdracht die je hebt gemaakt (1.3, 2.1, 2.2 & 2.3 van de reguliere les). 
-De uitwerking aan de voorkant veranderd helemaal niet, het gaat enkel om je code slimmer structureren met de nieuwe kennis.
+De uitwerking aan de voorkant veranderd niet (!), het gaat enkel om je code slimmer structureren met de nieuwe kennis.
 
 ## Overig
 - Als je voorbeelden hebt uit eigen praktijk of algemene vragen hebt, neem ze mee naar week 3!
