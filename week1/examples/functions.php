@@ -10,33 +10,34 @@
  * This method makes half a Christmas tree (upside down) with the provided characters
  * @param $characters array of random characters
  */
-function makeHalfATree($characters) {
+function makeHalfATree($characters)
+{
 
     foreach ($characters as $char) {
         echo $char;
     }
     echo '<br>';
 
-    if(count($characters) == 0) {
+    if (count($characters) == 0) {
         return;
     }
 
-    array_pop ( $characters );
+    array_pop($characters);
     makeHalfATree($characters);
 }
 
 ?>
 <!doctype html>
 <html lang="en">
-	<head>
-		<title>Functions</title>
-		<meta charset="utf-8" />
-	</head>
-	<body >
-        <section>
-            <p>
-                <?php makeHalfATree(['$', '%', '^', 'O','&', 'o', '*', '±']) ?>
-            </p>
-        </section>
-	</body>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Functions</title>
+</head>
+<body>
+<section>
+    <p>
+        <?php makeHalfATree(['$', '%', '^', 'O', '&', 'o', '*', '±']) ?>
+    </p>
+</section>
+</body>
 </html>
