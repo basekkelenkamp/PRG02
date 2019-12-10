@@ -1,7 +1,5 @@
 <?php namespace StudentsList\SchoolClasses;
 
-use AdvancedDemo\Demo\Persons\Student;
-
 /**
  * Class CMGTClass
  */
