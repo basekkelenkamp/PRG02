@@ -38,7 +38,7 @@ if (isset($_POST['submit'])) {
 }
 ?>
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <title>Music Collection Create</title>
     <meta charset="utf-8"/>
