@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8cf90;
+}
+
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Corbel;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    float: left;
+}
+
+.info {
+    margin-left: 500px;
+}
+
+footer {
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Corbel;
+    border: 1px solid #aaaaaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Style the submit button */
+input[type=submit] {
+    background-color: #b84336;
+    color: white;
+    transition: 1s;
+}
+
+input[type=submit]:hover {
+    background-color: #8d2215;
+    font-size: 20px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.homepagebuttons {
+    text-align: center;
+}
+
+.button {
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-family: Corbel;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 100px 100px;
+    text-decoration: none;
+    color: #ffffff;
+    margin-top: 12%;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.reserve-button:hover {
+    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color: #6c7c7c;
+}
+
+.reserve-button {
+    border: 1px solid #566963;
+    box-shadow: inset 1px 1px 3px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    margin-left: -10px;
+}
+
+.cancel-button:hover {
+    background: linear-gradient(to bottom, #7c0e00 5%, #8d2d2d 100%);
+    background-color: #7c1819;
+}
+
+.cancel-button {
+    border: 1px solid #692121;
+    box-shadow: inset 1px 1px 3px #b84336;
+    background: linear-gradient(to bottom, #8d3740 5%, #7c3332 100%);
+    background-color: #8d2215;
+    margin-left: 20px;
+    transition: 1s;
+}
