@@ -15,7 +15,10 @@ $db = mysqli_connect($host, $username, $password, $database)
 // Stap 3: Query naar de database opbouwen. Het is belangrijk dat dit
 //         apart gebeurt zodat je deze apart kunt tonen
 
+//voorbeeld: $id = $_GET['id'];
+//$query = "SELECT * FROM albums WHERE id=$id";
 $query = "SELECT * FROM albums";
+
 // Stap 4: Query uitvoeren op de database. Als dit goed gaat, geeft
 //         mysqli_query een mysqli_result terug. Let op, dit is een tabel.
 // Stap 5: Foutafhandeling. Als de query niet uitgevoerd kan worden treedt

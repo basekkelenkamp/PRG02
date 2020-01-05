@@ -36,7 +36,7 @@ require_once "includes/music-data.php";
         <tr>
             <td class="image"><img src="images/<?= $musicAlbum['image']; ?>" alt="<?= $musicAlbum['name']; ?>"/></td>
             <td><?= $musicAlbum['id']; ?></td>
-            <td><?= $musicAlbum['artist']; ?></td>
+            <td><?= $musicAlbum['artist_id']; ?></td>
             <td><?= $musicAlbum['name']; ?></td>
             <td><?= $musicAlbum['genre']; ?></td>
             <td><?= $musicAlbum['year']; ?></td>

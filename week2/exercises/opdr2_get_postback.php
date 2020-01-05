@@ -4,6 +4,7 @@
 
         // Als dat waar is, stel je de variabele $code gelijkt aan de meegestuurde info
 
+$code = $_GET['info'];
 
 ?>
 <!doctype html>

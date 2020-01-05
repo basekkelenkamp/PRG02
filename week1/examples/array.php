@@ -22,5 +22,9 @@ foreach ($associativeArray as $item) {
     echo $item;
 }
 
+
+
+
+
 // To see the content of an array you can use var_dump() or print_r()
 print_r($associativeArray);

@@ -17,6 +17,7 @@ $number = 10;   // initialization
     <p>
         <?php
         // in a code block it is not allowed to use <?=
+        echo "number is: $number ";
         $number++;
         if ($number == 11) {
             echo 'The number is now 11.';

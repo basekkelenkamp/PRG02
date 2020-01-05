@@ -1,0 +1,51 @@
+body {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-list {
+    display: flex;
+
+}
+
+.menu-item {
+    flex-grow: 1;
+    text-align: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.menu-item a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 40px;
+    background-color: grey;
+
+}
+span {
+    font-size: x-large;
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title-image {
+    padding: 40;
+    display: flex;
+
+}
+
+h1  {
+    font-family: "Lucida Sans";
+}
+
+a {
+    color: aqua;
+}
+
+.other-link {
+    color: red;
+}

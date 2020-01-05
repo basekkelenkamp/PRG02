@@ -1,10 +1,28 @@
 <?php
-// Check if form is submitted.
+// Check if form is submitted. POSTBACK: if(isset($_POST['submit'])) {
+if(isset($_POST['submit'])) {
+    $artistName = $_POST['artist'];
+    $albumName = $_POST['album'];
+    $genreName = $_POST['genre'];
+    $yearName = $_POST['year'];
+    $tracksName = $_POST['tracks'];
+
+
+    //-> uiteindelijk, alle info opslaan in een database. (toekomst)
+    //redirect naar index.php
+    header('Location:index.php');
+
+    //Exit is een functie, die sluit alle uitvoering NA de exit tag uit. Soort van tag voor veiligheid.
+    exit;
+}
 
 
     // 'Post back' with the data from the form.
 
     // Now this data can be stored in de database
+
+
+
 
 ?>
 <!doctype html>

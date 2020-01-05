@@ -12,5 +12,6 @@ while ($row = mysqli_fetch_assoc($result)) {
     $musicAlbums[] = $row;
 }
 
+
 //Close connection
 mysqli_close($db);

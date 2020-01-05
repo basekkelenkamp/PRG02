@@ -1,6 +1,10 @@
 <?php
+require_once 'includes\music-data.php';
+
+$x = 0;
 
 ?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -17,11 +21,12 @@
         <thead>
             <tr>
                 <th>#</th>
-                <th>Artist</th>
                 <th>Album</th>
+                <th>Artist</th>
                 <th>Genre</th>
                 <th>Year</th>
                 <th>Tracks</th>
+                <th>details</th>
                 <th></th>
                 <th></th>
             </tr>
@@ -32,20 +37,20 @@
             </tr>
         </tfoot>
         <tbody>
-
+        <?php foreach ($musicAlbums as $album){
+            $x++;?>
+            <tr>
+                <td><?= $x;?></td>
+                <td><?= $album['album']; ?></td>
+                <td><?= $album['artist'];?></td>
+                <td><?= $album['genre'];?></td>
+                <td><?= $album['year'];?></td>
+                <td><?= $album['tracks'];?></td>
+                <td><a href="details.php?id=<?= $x; ?>">details</a></td>
+            </tr>
+        <?php }; ?>
         </tbody>
     </table>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
 

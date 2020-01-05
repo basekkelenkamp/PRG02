@@ -1,0 +1,26 @@
+td {
+    padding: 0 10px;
+}
+.title-albuminfo {
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+tbody {
+    font-size: 20px;
+}
+
+tfoot td {
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid black;
+}
+
+/* This would be the way to go without PHP */
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
